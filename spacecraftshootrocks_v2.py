@@ -69,7 +69,7 @@ while running:
             bullet_x2 = -1
 
     # Draw the objects
-    screen.fill((0, 75, 75))
+    screen.fill((0, 72, 75))
     screen.blit(spaceship_img, (spaceship_x, spaceship_y))
     if bullet_y1 >= 0:                                              # y to y1
         screen.blit(bullet_img, (bullet_x1, bullet_y1))
